@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Business</title>
+
+    <style>
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        
+        .message {
+            font-size: 4rem;
+            text-align: center;
+        }
+
+      .color-change {
+        animation: colorChange 2s linear infinite;
+      }
+
+      @keyframes colorChange {
+        0% {
+          color: black;
+        }
+        20% {
+          color: red;
+        }
+        40% {
+          color: rgb(25, 233, 233);
+        }
+        50% {
+          color: greenyellow;
+        }
+        70% {
+          color: orangered;
+        }
+        90% {
+          color: yellow;
+        }
+        100% {
+          color: orchid;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="color-change message">This site is under development. <br> We will notify you when server is uploaded.</div>
+  </body>
+</html>
