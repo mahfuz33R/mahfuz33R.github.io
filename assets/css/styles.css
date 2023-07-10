@@ -303,7 +303,8 @@ section {
 }
 
 .home__img {
-  transform: translateX(-32px);
+  transform: translateX(-13px);
+  transform: translateY(-71px);
 }
 
 @keyframes floatImage {
